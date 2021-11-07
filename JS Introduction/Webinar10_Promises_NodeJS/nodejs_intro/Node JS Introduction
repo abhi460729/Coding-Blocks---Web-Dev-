@@ -1,0 +1,35 @@
+Layout Engine:              JS Engine 
+    Chrome, Opera -> Blink  V8
+    Firefox -> Gecko        GreaseMonkey
+    Edge -> Trident         Chakra
+
+Browser has two parts:
+    1. Layout Engine (HTML + CSS)
+    2. JS Engine or Interpreter (DOM (document), BOM (window), Console)
+
+What is node.js?
+This entire package below is called node.js
+
+            2009
+            Ryan Dabl
+Chrome->V8(taken out)  .js,V8(kept inside terminal)
+
+console=terminal
+        DOM->X
+window  BOM->X global
++
+fs,http,network
+
+.js file runs on node->node intrepreter is written using c++(so native).
+
+Now there will be three node that runs on Windows, Mac, Linux etc.
+Ecosystem like this is created -> WORA(Write Once Run Anywhere)
+
+Centralized Package Manager is introduced by developers in such an ecosystem.
+
+python->pip
+ruby->gem
+      bundle
+nodejs->npm,yarn
+
+By using these two programs(npm, yarn) we can install nodejs programs into our computer and  also install nodejs libraries into out programs.
