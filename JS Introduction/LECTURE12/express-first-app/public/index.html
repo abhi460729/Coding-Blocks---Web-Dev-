@@ -12,5 +12,17 @@
     <h1>Public Pages</h1>
     <a href="./a.html">a</a>
     <a href="./b.html">b</a>
+    <h1>Say Hello</h1>
+    <!--What is URL Encoding ? Suppose I enter my name as Abhishek Verma then the space will be treated as +-->
+    <form action="/hello" method="GET">
+        <input name="user" type="text">
+        <button type="submit">SUBMIT</button>
+    </form>
+    <h1>Google Search</h1>
+    <form method="GET">
+        <input name="q" type="text" placeholder="search query">
+        <button action="http://google.com/search" type="submit">Search Google</button>
+        <button action="http://bing.com/search" type="submit">Search Bing</button>
+    </form>
 </body>
 </html>
